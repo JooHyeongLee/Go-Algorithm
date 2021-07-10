@@ -12,6 +12,7 @@ s	return
 
 func Solution12903(s string) string {
 	var isEven = len(s) % 2
+	//문자열 자르기 범위는 초과 : 미만 으로 적용 됨
 	if isEven == 0 {
 		//문자열 길이가 짝수
 		return s[len(s)/2 - 1 : len(s)/2 + 1]

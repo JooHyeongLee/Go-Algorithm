@@ -5,8 +5,6 @@ import (
 )
 
 func main() {
-	var s1 = "abcde"
-	var s2 = "qwer"
-	programmers.Solution12903(s1)
-	programmers.Solution12903(s2)
+	var str = "Zbcdefg"
+	programmers.Solution12917(str)
 }
